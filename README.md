@@ -75,7 +75,7 @@ AlgaeLncPred has been trained and validated on comprehensive algae transcriptomi
 
 - **File format**: FASTA format
 - **Sequence type**: RNA transcript sequences
-- **Species**: Optimized for algae species (tested on *Chlamydomonas reinhardtii*)
+
 
 ## Example Output
 
@@ -86,47 +86,5 @@ transcript_002  1250          0.87             2.34             0.89
 transcript_003  78            0.34             -0.87            0.28
 ```
 
-## File Structure
-
-```
-AlgaeLncPred/
-├── AlgaeLncPred.py          # Main prediction script
-├── Algae_Hexamer.tsv        # Pre-trained hexamer frequency data
-├── Algae.logit.RData        # Logistic regression model
-├── example/
-│   ├── Chlamydomonas_reinhardtii.test.fasta    # Example input
-│   └── Chlamydomonas_reinhardtii.output        # Example output
-├── requirements.txt         # Python dependencies
-└── README.md               # This file
-```
-
-## Citation
-
-If you use AlgaeLncPred in your research, please cite:
-
-```
-[Your paper citation will go here]
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-We welcome contributions! Please feel free to submit issues, feature requests, or pull requests.
-
-## Contact
-
-For questions or support, please contact:
-- Email: [your-email@institution.edu]
-- Issues: [GitHub Issues](https://github.com/username/AlgaeLncPred/issues)
-
-## Acknowledgments
-
-- Thanks to the algae research community for providing valuable datasets
-- Special acknowledgment to contributors and beta testers
-
----
 
 **Note**: This tool is designed for research purposes. For clinical or commercial applications, please contact the authors for appropriate licensing.
