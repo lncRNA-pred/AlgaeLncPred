@@ -19,7 +19,7 @@ cd AlgaeLncPred
 
 ## Prerequisites
 
-- Python 3.6+
+- Python 2.7
 - R (for logistic regression model)
 - Required Python packages (see `requirements.txt`)
 
