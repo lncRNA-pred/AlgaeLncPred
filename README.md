@@ -2,13 +2,6 @@
 
 **AlgaeLncPred** is a specialized machine learning model designed for predicting long non-coding RNAs (lncRNAs) in algae species. This tool provides accurate identification of lncRNAs from transcriptomic data, specifically optimized for algal genomes.
 
-## Features
-
-- **Species-specific optimization**: Tailored for algae species with specialized training datasets
-- **High accuracy prediction**: Uses advanced machine learning algorithms with multiple feature sets
-- **Easy-to-use interface**: Simple command-line tool requiring only FASTA input
-- **Comprehensive output**: Provides detailed feature analysis and prediction probabilities
-- **Open source**: Completely free and available for academic and research use
 
 ## Installation
 
